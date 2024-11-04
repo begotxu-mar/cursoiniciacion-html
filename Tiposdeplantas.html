@@ -1,0 +1,166 @@
+<html>
+    <!DOCTYPE html>
+    <html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <title>¿Qué son las plantas</title>
+
+        <link rel="icon"  href="https://cdn.pixabay.com/photo/2022/08/27/00/11/plant-7413415_1280.png" type="image/x-icon"> <!-- Con rel le indicamos que vamos a hacer un favicon -->
+    
+        <style>
+            
+            /* Estilo para los títulos*/
+            /*Letra descargada para los títulos, no le gusta que los nombres de las letras lleven espacios*/
+                    @font-face {
+                        font-family: letramolona;
+                        src: url(Childaitalic.ttf);
+                    }
+
+                    h1, h2 {
+
+                        margin 20px 0;
+                        background-color: aliceblue;
+                        font-family:letramolona ;
+                        color: blue;
+                        text-align: center;
+                    }
+              /*Estilo para los párrafos*/
+
+                     p{
+                        text-align: justify;
+                        font-size: large;
+                       
+                                    }
+                    
+                    .Texto{
+                        color:grey;
+
+                    }
+           
+            /* Coloco el texto a la derecha en una caja*/
+                    .Textoderecho {
+                        width: 30% ;
+                        margin-left: 30%;
+                        border: 2px solid rgba(9, 109, 57, 0.516);
+                        background-color: rgb(229, 244, 229);
+                        color: rgb(3, 66, 13); /* ¿por qué no me coge el color y se queda con el que he definido en el párrafo?*/
+                        padding-left: 10px;
+                        padding-right: 10px;
+                        
+                        
+                    }
+
+            /* Coloco el enlace y le doy formato*/
+            
+                    .Link {
+                        text-align: center;
+                        font-size: large;
+                        color:rgb(11, 189, 35);
+                    }
+
+            /* Coloco la lista a la izquierda */
+            .Lista {
+                width: 250px;
+                height: 140px;
+                /*padding: 10px;*/
+                padding-left: 10px;
+                padding-bottom: 30 px;
+               /* margin:auto;*/
+                border: 2px solid rgba(5, 111, 56, 0.516); /* Para que la pinte hay que decirle el tipo de linea??*/
+                background-color: rgb(217, 232, 217);
+                color:rgb(76, 166, 241) ;
+                text-align: left;
+               
+            }
+
+             /*Coloco la Imagen 1*/
+             .Imagen1 {
+                width: 500px;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                margin-left: 520px;
+            }
+            /*Coloco la Imagen 2*/
+            .Imagen2 {
+                width: 350px;
+                margin-top: 50px;
+                margin-left: 200px;
+            }
+        </style>
+    
+    </head>
+
+    <body>
+        <h1> Qué son las plantas</h1>
+
+        <header>
+            <div>
+                <ul>
+                        
+                        <li> <a href="#porque"> ¿Por qué aprender sobre plantas?</a></li>
+                        <li> <a href="#acerca"> Acerca de mi</a></li>
+
+                </ul>
+
+            </div>
+        </header>
+         
+        <img src="https://cdn.pixabay.com/photo/2015/06/25/14/13/fern-821293_1280.jpg" class="Imagen1" title="Imagen Helecho">
+
+
+        <div class="Textoderecho">
+            <p> Descubre en este artículo de carácter divulgativo todo lo que necesitas saber sobre las plantas, sobre su anatomía, sobre sus cuidados,
+                dónde colocarlas, sobre el riego apropiado o el tipo de sustrato a utilizar con las distintas plantas.
+            </p>
+        </div>
+        
+        <hr>
+                <p class="Texto"> Las plantas se originaron hace más de 500 millones de años a partir de un tipo de alga, y de ahí poblaron la tierra para dotar de gran cantidad de vida al planeta.
+                <br> Descubre todo lo que necesitas saber para cuidarlas. Ellas te devolverán todo tu cariño.
+                </p>
+            <h2> También te puede interesar:</h2>
+                <div class="Link">
+                            <a href="https://www.ecologiaverde.com/plantas-de-interior-resistentes-y-duraderas-3790.html"> Plantas de interior resistentes</a> 
+                </div>
+        
+            
+
+        <div class="Lista">
+            <h3> Índice</h3>
+                <ol> 
+                    <b>
+                            <li> <a href="Plantas1.html">¿Qué son las plantas? </a></li> 
+
+                            <li>  Partes de las plantas </li>
+
+                            <li> Clasificación de las plantas </li>               
+                    </b>
+                </ol>
+        </div>
+        <hr>
+
+        <div id="porque" >
+            <h2> ¿Por qué aprender sobre plantas?</h2>
+            <p> En la época del mindfulness, parece que se nos olvida que hay otras actividades más tradicionales  que aportan relajación, es el caso del cuidado de las plantas.</p>
+            <img src="https://cdn.pixabay.com/photo/2017/08/31/13/07/interior-2700712_1280.jpg"  class="Imagen2">
+    
+        </div>
+        <hr>
+        <div id="acerca">
+            <h2> Acerca de mí</h2>
+            <p> Como mamá plantil he tenido que aprender sobre plantas y sus cuidados para tenerlas en las mejores condiciones. En estas páginas te cuento sobre lo que he aprendido y sobre mi propia experiencia</p>
+
+        </div>
+        <hr>
+        <footer>
+
+            <p>&copy; 2024 Ejercicio intermedio</p>
+        </footer>
+    </body>
+
+
+
+</html>
